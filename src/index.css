@@ -42,4 +42,44 @@ footer{
 }
 .main-note{
   
+ position: relative;
+ top: 10rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: left;
+ align-items: center;
+ box-sizing: border-box;
+ flex-wrap: wrap;
+ box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.2);
+   margin-left: 15%;
+   margin-right: 15%;
+  text-align: center;
+  border-radius: 20px;
+  
+}
+input{
+  
+  padding: 5px;
+  font-size: 20px;
+ box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: 0;
+  
+}
+textarea{
+  box-sizing: border-box;
+  font-size: 17px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: 0;
+ 
+}
+@media screen and (min-width:768px) {
+  .main-note{
+    margin-left: 33%;
+   margin-right: 33%;
+  }
 }
