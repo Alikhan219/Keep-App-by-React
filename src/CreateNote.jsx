@@ -7,7 +7,7 @@ const CreateNote =()=>{
         <>
            <div className="main-note">
       <form>
-          <input type="text" placeholder="Title" />
+          <input type="text" placeholder="Title" autoComplete="off" />
           <textarea rows="" column="" placeholder="Write a note..."></textarea>
           <Button id="add-btn">
          <AddIcon id="add-icon"></AddIcon>
