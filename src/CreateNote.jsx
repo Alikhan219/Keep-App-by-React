@@ -9,8 +9,8 @@ const CreateNote =()=>{
       <form>
           <input type="text" placeholder="Title" />
           <textarea rows="" column="" placeholder="Write a note..."></textarea>
-          <Button>
-         <AddIcon />
+          <Button id="add-btn">
+         <AddIcon id="add-icon"></AddIcon>
           </Button>
       </form>
            </div>

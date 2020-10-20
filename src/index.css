@@ -42,44 +42,62 @@ footer{
 }
 .main-note{
   
+  padding: 30px;
  position: relative;
- top: 10rem;
+ top: 8rem;
  display: flex;
  flex-direction: column;
  justify-content: left;
  align-items: center;
  box-sizing: border-box;
  flex-wrap: wrap;
- box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.2);
+ box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.5);
    margin-left: 15%;
    margin-right: 15%;
-  text-align: center;
-  border-radius: 20px;
+  text-align: right;
+  border-radius: 10px;
   
 }
 input{
   
-  padding: 5px;
-  font-size: 20px;
+  
+  font-size: 25px;
  box-sizing: border-box;
   width: 100%;
   text-align: left;
   border: none;
   outline: 0;
-  
+  font-weight: 600;
+  font-family: 'Bree Serif', serif;
 }
 textarea{
   box-sizing: border-box;
-  font-size: 17px;
+  font-size: 20px;
   width: 100%;
   border: none;
   text-align: left;
   outline: 0;
- 
+  margin-top: 20px;
+  font-family: 'Antic Slab', serif;
+  font-weight: 600;
 }
 @media screen and (min-width:768px) {
   .main-note{
-    margin-left: 33%;
-   margin-right: 33%;
+    margin-left: 34%;
+   margin-right: 34%;
   }
+}
+#add-icon{
+  color: #f5ba13;
+  font-size: 40px;
+}
+#add-btn{
+  box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.5);
+  background: white;
+  border-radius: 120px;
+  padding: 9px;
+  position: relative;
+  top: 55px;
+  left: 20px;
+  
 }
