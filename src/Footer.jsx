@@ -5,8 +5,8 @@ const Footer = () => {
     const date= new Date().getFullYear()
     return (
         <>
-         <footer>
-             <p> copyright © {date} </p>
+         <footer >
+             <p className= "footer"> copyright © {date} </p>
          </footer>
         </>
     )
