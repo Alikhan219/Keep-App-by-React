@@ -9,11 +9,11 @@ return(
   <>
     <Header />
     <CreateNote />
-    <div style={{display: "flex",flexDirection: "row"}}> 
+    <div style={{display: "flex",flexDirection: "row", flexWrap:"wrap"}}> 
     <Note />
     <Note />
     <Note />
-    <Note />
+  
     </div>
     <Footer />
   </>
