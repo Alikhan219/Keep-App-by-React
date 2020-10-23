@@ -125,6 +125,11 @@ textarea{
    text-align: left;
    border-radius: 10px;
 }
+@media screen and (max-width:900px) {
+  .note{
+    width: 11.4rem;
+  }
+}
 .small-note{
   display: flex;
   flex-direction: row;
