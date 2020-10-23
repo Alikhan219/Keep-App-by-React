@@ -6,6 +6,11 @@ const Div = () => {
             <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}>
                 <Note />
                 <Note />
+                <Note />
+                <Note />
+                <Note />
+                <Note /><Note />
+                <Note />
             </div>
 
         </>

@@ -10,7 +10,7 @@ const Note = () => {
     <div className="note">
         <h1>Title</h1>
         <br />
-        <p>this is my content</p>
+        <p className="p_wrap">ali khan my name is what are you doing now man</p>
         <button className="btn">
            <DeleteOutlineIcon className="deleteIcon"/>
            </button>

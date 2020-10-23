@@ -2,13 +2,13 @@ import React from "react"
 import Header from "./Header"
 import Footer from "./Footer"
 import CreateNote from "./CreateNote"
-import Note from "./Note"
 import Div from "./Div"
+import Div_2 from "./Div_2"
 const App=()=>{
 return(
   <>
     <Header />
-    <CreateNote />
+    <Div_2 />
     <Div />
     <Footer />
   </>

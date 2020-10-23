@@ -34,7 +34,8 @@
 footer{
   width: 100%;
   /* position: absolute; */
-  margin-top: 295px;
+  margin-top: 290px;
+  margin-bottom: 20px;
   text-align: center;
   font-size: 22px;
   color: gray;
@@ -66,6 +67,9 @@ input{
   outline: 0;
   font-weight: 600;
   font-family: 'Bree Serif', serif;
+}
+.Div_2{
+padding-top: 127px;
 }
 textarea{
   box-sizing: border-box;
@@ -109,8 +113,7 @@ textarea{
 
 .note{
   padding: 20px;
-  
-  
+  width: 12.3rem;
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -118,7 +121,7 @@ textarea{
   box-sizing: border-box;
   box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.5);
   margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 25px;
    text-align: left;
    border-radius: 10px;
 }
@@ -152,4 +155,7 @@ color: #f5ba13;
 }
 .btn:hover .deleteIcon{
   color: white;
+}
+.p_wrap{
+ overflow-wrap: break-word;
 }
