@@ -3,18 +3,13 @@ import Header from "./Header"
 import Footer from "./Footer"
 import CreateNote from "./CreateNote"
 import Note from "./Note"
-
+import Div from "./Div"
 const App=()=>{
 return(
   <>
     <Header />
     <CreateNote />
-    <div style={{display: "flex",flexDirection: "row", flexWrap:"wrap"}}> 
-    <Note />
-    <Note />
-    <Note />
-  
-    </div>
+    <Div />
     <Footer />
   </>
 )
