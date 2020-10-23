@@ -129,6 +129,9 @@ textarea{
   .note{
     width: 11.4rem;
   }
+  .btn{
+    margin-left: 130px;
+  }
 }
 .small-note{
   display: flex;
@@ -149,8 +152,14 @@ textarea{
   border: none;
   outline: none;
   cursor: pointer;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 104px;
+ ;
+}
+@media screen and (min-width:900px) {
+  
+  .btn{
+    margin-left: 118px;
+  }
 }
 .deleteIcon{
 color: #f5ba13;
