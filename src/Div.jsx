@@ -3,13 +3,7 @@ import Note from "./Note"
 const Div = () => {
     return (
         <>
-            <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}>
-                <Note />
-                <Note />
-                <Note />
-                <Note />
-                <Note />
-                <Note /><Note />
+            <div className="main_div" style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}>
                 <Note />
             </div>
 
