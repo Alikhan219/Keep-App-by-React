@@ -1,10 +1,14 @@
 import React from "react"
 import CreateNote from "./CreateNote"
 const Div_2 = () => {
-    return (
+    const addNote=()=>{
+          alert('I am clicked')
+    }
+        return (
         <>
             <div className="Div_2">
-                <CreateNote />
+                <CreateNote
+                    passNote={addNote} />
             </div>
         </>
     )
