@@ -3,6 +3,7 @@ import Header from "./Header"
 import Footer from "./Footer"
 import CreateNote from "./CreateNote"
 import Note from "./Note"
+import { FullscreenExitRounded } from "@material-ui/icons"
 
 const App=()=>{
   const [addItem, setAddItem]= useState([])
@@ -21,9 +22,20 @@ return(
     <div className='Div_2'>
     <CreateNote passNote={addNote}/>
     </div>
-    <div className="main_div">
-    <Note />
-    </div>
+   
+    {addItem.map((val, index)=>{
+    return (
+      <Note 
+        key={index}
+        id={index}
+        title={val.title}
+        content={val.content}
+      />
+    )
+    })}
+    
+    
+
     
     <Footer />
   </>
