@@ -7,7 +7,7 @@ const Note = (props) => {
         <>
        
     <div className="note">
-        <h1>{props.title}</h1>
+        <h1 className="title">{props.title}</h1>
         <br />
         <p className="p_wrap">{props.content}</p>
         <button className="btn">

@@ -34,7 +34,7 @@
 footer{
   width: 100%;
   /* position: absolute; */
-  margin-top: 290px;
+  margin-top: 420px;
   margin-bottom: 20px;
   text-align: center;
   font-size: 22px;
@@ -57,8 +57,6 @@ footer{
   
 }
 input{
-  
-  
   font-size: 25px;
  box-sizing: border-box;
   width: 100%;
@@ -67,6 +65,7 @@ input{
   outline: 0;
   font-weight: 600;
   font-family: 'Bree Serif', serif;
+  overflow-wrap: break-word;
 }
 .Div_2{
 padding-top: 127px;
@@ -81,6 +80,7 @@ textarea{
   margin-top: 20px;
   font-family: 'Antic Slab', serif;
   font-weight: 600;
+  overflow-wrap: break-word;
 }
 
 @media screen and (min-width:768px) {
@@ -124,6 +124,8 @@ textarea{
     margin-left: 25px;
    text-align: left;
    border-radius: 10px;
+
+float: left;
 }
 @media screen and (max-width:900px) {
   .note{
@@ -173,8 +175,6 @@ color: #f5ba13;
 .p_wrap{
  overflow-wrap: break-word;
 }
-.main_div{
-  display: "flex";
-   flex-direction: "row";
-    flex-wrap: "wrap"
+.title{
+  overflow-wrap: break-word;
 }
