@@ -173,3 +173,8 @@ color: #f5ba13;
 .p_wrap{
  overflow-wrap: break-word;
 }
+.main_div{
+  display: "flex";
+   flex-direction: "row";
+    flex-wrap: "wrap"
+}
