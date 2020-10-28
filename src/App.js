@@ -5,41 +5,46 @@ import CreateNote from "./CreateNote"
 import Note from "./Note"
 import { FullscreenExitRounded } from "@material-ui/icons"
 
-const App=()=>{
-  const [addItem, setAddItem]= useState([])
-  const addNote=(note)=>{
-    setAddItem((prevData)=>{
-     return [...prevData, note]
+const App = () => {
+  const [addItem, setAddItem] = useState([])
+  const addNote = (note) => {
+    setAddItem((prevData) => {
+      return [...prevData, note]
     });
     console.log(note)
-    
+
   }
 
-return(
-  <>
-    <Header />
+  return (
+    <>
+      <Header />
 
-    <div className='Div_2'>
-    <CreateNote passNote={addNote}/>
-    </div>
-   
-    {addItem.map((val, index)=>{
-    return (
-      <Note 
-        key={index}
-        id={index}
-        title={val.title}
-        content={val.content}
-      />
-    )
-    })}
-    
-    
+      <div className='Div_2'>
+        <CreateNote passNote={addNote} />
+      </div>
 
-    
-    <Footer />
-  </>
-)
+      {addItem.map((val, index) => {
+        
+          
+            return (
+              <Note
+                key={index}
+                id={index}
+                title={val.title}
+                content={val.content}
+              />
+            )
+          
+        
+
+      })}
+
+
+
+
+      <Footer />
+    </>
+  )
 }
 
 

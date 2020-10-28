@@ -4,25 +4,35 @@ import AddIcon from '@material-ui/icons/Add';
 
 const CreateNote = (props) => {
     const [note, setNote] = useState({
-        title: '',
+        title: "",
         content: ""
     })
     const inputEvent = (event) => {
         const { name, value } = event.target;
-
-        setNote((prevData) => {
-            return {
-                ...prevData,
-                [name]: value,
-            }
-        })
+              if(name && value){
+                setNote((prevData) => {
+                    return {
+                        ...prevData,
+                        [name]: value,
+                    }
+                })
+              }else{
+                  alert("please enter some text")
+              }
+       
     }
     const addEvent = () => {
-        props.passNote(note);
-        setNote({
-            title: '',
-            content: ""
-        })
+        if(note.title&&note.content){
+            props.passNote(note);
+            setNote({
+                title: "",
+                content: ""
+            })
+        }else{
+            alert("Please Enter Some Value")
+        }
+
+        
     }
     return (
         <>
