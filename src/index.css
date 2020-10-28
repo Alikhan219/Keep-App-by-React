@@ -117,14 +117,11 @@ textarea{
   height: 12rem;
   display: flex;
   flex-direction: column;
-  justify-content: left;
-  align-items: left;
   box-sizing: border-box;
   box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.5);
   margin-top: 50px;
-    margin-left: 25px;
-   text-align: left;
-   border-radius: 10px;
+  margin-left: 25px;
+  border-radius: 10px;
 
 float: left;
 }
@@ -174,10 +171,12 @@ color: #f5ba13;
   color: white;
 }
 .p_wrap{
+  height: 70px;
  overflow: auto;
  overflow-wrap: break-word;
 }
 .title{
+  height: 50px;
   overflow: auto;
   overflow-wrap: break-word;
 }
