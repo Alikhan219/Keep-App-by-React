@@ -171,11 +171,13 @@ color: #f5ba13;
   color: white;
 }
 .p_wrap{
+  font-family: 'Antic Slab', serif;
   height: 70px;
  overflow: auto;
  overflow-wrap: break-word;
 }
 .title{
+  font-family: 'Antic Slab', serif;
   height: 50px;
   overflow: auto;
   overflow-wrap: break-word;
