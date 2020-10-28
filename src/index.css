@@ -114,6 +114,7 @@ textarea{
 .note{
   padding: 20px;
   width: 12.3rem;
+  height: 12rem;
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -173,8 +174,10 @@ color: #f5ba13;
   color: white;
 }
 .p_wrap{
+ overflow: auto;
  overflow-wrap: break-word;
 }
 .title{
+  overflow: auto;
   overflow-wrap: break-word;
 }
