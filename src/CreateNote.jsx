@@ -29,7 +29,7 @@ const CreateNote = (props) => {
                 content: ""
             })
         }else{
-            alert("Please Enter Some Value")
+            alert("Please Enter Some Note In The Title Place And In The Note Place")
         }
 
         

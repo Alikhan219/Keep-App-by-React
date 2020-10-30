@@ -31,14 +31,21 @@
   
 
 }
-footer{
-  width: 100%;
-  /* position: absolute; */
-  margin-top: 420px;
-  margin-bottom: 20px;
+.footer{
+ 
+  
+  
+  position: fixed;
+  right: 0;
+  bottom: 0px;
+  left: 0;
+  padding: 1rem;
+  
   text-align: center;
   font-size: 22px;
   color: gray;
+  
+
 }
 .main-note{
   padding: 30px;
@@ -122,6 +129,8 @@ textarea{
   margin-top: 50px;
   margin-left: 25px;
   border-radius: 10px;
+ 
+  
 
 float: left;
 }

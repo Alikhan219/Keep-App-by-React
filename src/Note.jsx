@@ -12,7 +12,7 @@ const Note = (props) => {
                 <br />
                 <p className="p_wrap">{props.content}</p>
 
-                <button className="btn">
+                <button className="btn" onClick={deleteItem}>
                     <DeleteOutlineIcon className="deleteIcon" />
                 </button>
 
