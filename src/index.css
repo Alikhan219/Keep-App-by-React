@@ -174,7 +174,7 @@ float: left;
 color: #f5ba13;
 }
 .btn:hover{
-  background-color: red;
+  background-color: #f5ba13;
 }
 .btn:hover .deleteIcon{
   color: white;

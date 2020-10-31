@@ -1,28 +1,29 @@
-import React, { useState } from "react"
-import Header from "./Header"
-import CreateNote from "./CreateNote"
-import Note from "./Note"
-import { FullscreenExitRounded } from "@material-ui/icons"
+import React, { useState } from "react";
+import Header from "./Header";
+import CreateNote from "./CreateNote";
+import Note from "./Note";
 
 const App = () => {
-  const [addItem, setAddItem] = useState([])
+  const [addItem, setAddItem] = useState([]);
   const addNote = (note) => {
     setAddItem((prevData) => {
-      return [...prevData, note]
+      return [...prevData, note];
     });
-    console.log(note)
-
-  }
-  const onDelete=()=>{}
+    console.log(note);
+  };
+  const onDelete = (id) => {
+    setAddItem((olddata) => olddata.filter((currdata, indx) => indx !== id));
+  };
 
   return (
     <>
       <Header />
 
-      <div className='Div_2'>
+      <div className="Div_2">
         <CreateNote passNote={addNote} />
       </div>
 
+      {console.log(addItem)}
       {addItem.map((val, index) => {
         return (
           <Note
@@ -30,15 +31,12 @@ const App = () => {
             id={index}
             title={val.title}
             content={val.content}
-             deletItem={onDelete}
-            
+            deleteItem={onDelete}
           />
-        )
+        );
       })}
-      
     </>
-  )
-}
-
+  );
+};
 
 export default App;
