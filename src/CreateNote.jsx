@@ -43,10 +43,9 @@ const CreateNote = (props) => {
                         onChange={inputEvent} placeholder="Title" autoComplete="off"
                         required="required"
                     />
-                    <textarea
+                    <textarea className="textarea"
                         name="content"
-                        rows=""
-                        column=""
+                        cols="0" rows="0" charswidth="23" 
                         value={note.content}
                         onChange={inputEvent} placeholder="Write a note..." ></textarea>
                     <Button onClick={addEvent} id="add-btn">
