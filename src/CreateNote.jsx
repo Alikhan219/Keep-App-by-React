@@ -9,16 +9,14 @@ const CreateNote = (props) => {
     })
     const inputEvent = (event) => {
         const { name, value } = event.target;
-              if(name && value){
+              
                 setNote((prevData) => {
                     return {
                         ...prevData,
                         [name]: value,
                     }
                 })
-              }else{
-                  alert("please enter some text")
-              }
+              
        
     }
     const addEvent = () => {

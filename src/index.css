@@ -80,8 +80,11 @@ padding-top: 127px;
 textarea{
   box-sizing: border-box;
   font-size: 20px;
-  width: 100%;
+  min-height: 60px;
+ min-width: 400px;
+  max-width: 400px;
   border: none;
+  float: left;
   text-align: left;
   outline: 0;
   margin-top: 20px;
